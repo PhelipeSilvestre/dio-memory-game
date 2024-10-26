@@ -29,6 +29,8 @@ h2 {
   color: #fff;
   text-transform: uppercase;
   letter-spacing: 0.1em;
+  font-weight: 600;
+  text-align: center;
 }
 
 .reset {
@@ -91,4 +93,16 @@ h2 {
 .boxOpen::after,
 .boxMatch::after {
   transform: rotateY(180deg);
+}
+@media screen and (max-width: 1170px) {
+  .game {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+  }
+
+  .container {
+    text-align: center;
+  }
 }
